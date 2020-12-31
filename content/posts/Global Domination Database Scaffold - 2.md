@@ -1,6 +1,6 @@
 ---
 title: Global Domination Database Scaffold
-date: "2019-30-12T11:53:11.284Z"
+date: "2019-12-30T11:53:11.284Z"
 description: "Hello World"
 ---
 # Global Domination Database Scaffold

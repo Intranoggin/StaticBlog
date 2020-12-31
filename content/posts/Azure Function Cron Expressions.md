@@ -1,6 +1,6 @@
 ---
 title:  Azure Function Cron Expressions
-date: "2020-6-30T7:53:11.284Z"
+date: "2020-06-30"
 description: "Hello World"
 ---
 # Azure Function Cron Expressions 

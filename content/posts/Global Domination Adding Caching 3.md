@@ -1,6 +1,6 @@
 ---
 title:  Global Domination Adding Caching
-date: "2019-31-12T14:16:11.284Z"
+date: "2019-12-31"
 description: "Hello World"
 ---
 # Global Domination Adding Caching

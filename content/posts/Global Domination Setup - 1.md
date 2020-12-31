@@ -1,6 +1,6 @@
 ---
 title: Global Domination Project Setup
-date: "2019-27-12T15:04:11.284Z"
+date: "2019-12-27T15:04:11.284Z"
 description: "Hello World"
 ---
 # Global Domination Project Setup
