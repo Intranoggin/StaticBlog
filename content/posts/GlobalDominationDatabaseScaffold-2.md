@@ -11,7 +11,7 @@ I love the EFCore Code First Migrations capabilities. However, when it comes to 
 
 I created two tables, Facilities and FacilityTypes.
 
-![image-20191227151933563](Global Domination Database Scaffold - 2.assets/image-20191227151933563.png)![image-20191227151954549](Global Domination Database Scaffold - 2.assets/image-20191227151954549.png)
+![image-20191227151933563](GlobalDominationDatabaseScaffold-2.assets/image-20191227151933563.png)![image-20191227151954549](GlobalDominationDatabaseScaffold-2.assets/image-20191227151954549.png)
 
 ```
 CREATE TABLE [dbo].[Facilities](
@@ -77,4 +77,4 @@ Then run your scaffolding command. Mine was this, which created a context class 
 PM> dotnet-ef dbcontext scaffold "Server=(local); Database=GlobalDomination;integrated security=True" "Microsoft.EntityFrameworkCore.SqlServer" -s GlobalDomination -p Database -c GDomContext -o Entity --context-dir Context
 ```
 
-![image-20191230115254569](Global Domination Database Scaffold - 2.assets/image-20191230115254569.png)
+![image-20191230115254569](GlobalDominationDatabaseScaffold-2.assets/image-20191230115254569.png)

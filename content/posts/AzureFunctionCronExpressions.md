@@ -22,7 +22,7 @@ The expression has 6 slots that represent.
 - month
 - day of week 
 
-![image-20191106132547219](Azure Function Cron Expressions.assets/image-20191106132547219.png)
+![image-20191106132547219](AzureFunctionCronExpressions.assets/image-20191106132547219.png)
 
 So what's the confusing part? Well for starters, it's not well documented that those cron expressions are in UTC. I know, the page I linked to above spells it out, but trust me, it isn't always obvious. Many of the examples are set up to trigger every hour or every 5 minutes, in which case it wouldn't matter. However I'm often using timer triggers to schedule processes around a company's daily work. People don't show up to work and schedule tasks around UTC and translating schedules back and forth between local time zones and UTC just introduces the potential for mistakes. 
 
@@ -34,6 +34,6 @@ WEBSITE_TIME_ZONE:Eastern Standard Time
 
  https://docs.microsoft.com/en-us/previous-versions/windows/it-pro/windows-vista/cc749073(v=ws.10)?redirectedfrom=MSDN 
 
-![image-20191106154754847](Azure Function Cron Expressions.assets/image-20191106154754847.png)
+![image-20191106154754847](AzureFunctionCronExpressions.assets/image-20191106154754847.png)
 
 The caveat here is that the setting affects your entire function app. You can't mix and match UTC and local time zone based triggers within the same function app, but hopefully that's a fairly niche situation. 

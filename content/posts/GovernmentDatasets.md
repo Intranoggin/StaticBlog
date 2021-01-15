@@ -9,16 +9,16 @@ I was putting together a some supporting code for a [CodeMash](https://www.codem
 
 This site is put maintained by the Department of Homeland Security and the data is freely available. It gives you the ability to search for datasets. One you search and select a dataset, for example Urgent Care Facilities (perfecto).
 
-![image-20191218095712780](Government Datasets.assets/image-20191218095712780.png)
+![image-20191218095712780](./GovernmentDatasets.assets/image-20191218095712780.png)
 
 You get to see an interactive map of the data and get a description of the dataset itself, including details of every field within the set. Or you can just jump straight to the download and explore it locally.
 
-![image-20191218100057985](Government Datasets.assets/image-20191218100057985.png)
+![image-20191218100057985](GovernmentDatasets.assets/image-20191218100057985.png)
 
-![image-20191218100221654](Government Datasets.assets/image-20191218100221654.png)
+![image-20191218100221654](GovernmentDatasets.assets/image-20191218100221654.png)
 
 
 
 If you're curious what they have, you can [download a catalog](https://gii.dhs.gov/hifld/content/hifld-data-catalog) of all of the available datasets, or perhaps more consumable, just browse the site and start exploring by category.
 
-![[image-20191218101100298](https://hifld-geoplatform.opendata.arcgis.com/)](Government Datasets.assets/image-20191218101100298.png)
+![[image-20191218101100298](https://hifld-geoplatform.opendata.arcgis.com/)](GovernmentDatasets.assets/image-20191218101100298.png)
